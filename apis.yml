@@ -1,8 +1,27 @@
 aid: zum
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zum.png
 name: Zum
-description: 'Zum is a company surfaced as a portfolio company of softbank-vision-fund and added to the
-  API Evangelist network as a stub for enrichment. Sector: transportation. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Zum is a student transportation technology company that runs school
+  bus operations for K-12 school districts through its Connected Mobility Experience
+  (CMX) platform. Founded by Ritu Narayan and headquartered in Redwood City, California,
+  Zum unifies parents, students, drivers, and district administrators with real-time
+  ride tracking, route optimization, parent notification apps, driver tooling, fleet
+  management dashboards, and an electrified bus program. The company serves roughly
+  6,500 schools and districts, has completed more than 159 million rides, and is backed
+  by SoftBank Vision Fund. Zum operates consumer-facing parent and driver mobile apps
+  and district dashboards, but publishes no public developer portal, API documentation,
+  or API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/zum/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +31,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Transportation
+- Student Transportation
+- Mobility
+- School Bus
+- Fleet Management
+- Electrification
+- K-12 Education
 apis: []
+common:
+- type: DomainSecurity
+  url: security/zum-domain-security.yml
+- type: LLMsTxt
+  url: llms/zum-llms.txt
+- type: Website
+  url: https://www.ridezum.com
+- type: Blog
+  url: https://www.ridezum.com/blog/
+- type: Support
+  url: https://www.ridezum.com/contact-us/
+- type: PrivacyPolicy
+  url: https://www.ridezum.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.ridezum.com/terms-conditions/
+- type: Careers
+  url: https://www.ridezum.com/company/careers/
+- type: Press
+  url: https://www.ridezum.com/company/press/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

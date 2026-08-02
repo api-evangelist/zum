@@ -1,0 +1,19 @@
+# Zum
+
+> Zum is a student transportation technology company operating school bus service for K-12 school districts through its Connected Mobility Experience (CMX) platform. Founded by Ritu Narayan and headquartered in Redwood City, California, Zum unifies parents, students, drivers, and district administrators with real-time ride tracking, route optimization, parent notification apps, driver tooling, fleet management dashboards, and an electrified bus program. Zum serves roughly 6,500 schools and districts, has completed more than 159 million rides, and is backed by SoftBank Vision Fund. As of this writing Zum publishes no public developer portal, API documentation, or API surface — access is through its consumer parent/driver mobile apps and district dashboards.
+
+## Company
+- [Website](https://www.ridezum.com): Zum home — CMX platform, solutions, and service areas.
+- [Blog](https://www.ridezum.com/blog/): Company news, product, and student-transportation insights.
+- [Careers](https://www.ridezum.com/company/careers/): Corporate and bus-driver/depot job openings.
+- [Press & Media](https://www.ridezum.com/company/press/): Press releases and media assets.
+- [Contact / Get Started](https://www.ridezum.com/contact-us/): District sales and support contact.
+
+## Legal
+- [Privacy Policy](https://www.ridezum.com/privacy-policy/): Data and privacy practices.
+- [Terms & Conditions](https://www.ridezum.com/terms-conditions/): Terms of service.
+
+## Notes
+- No public API, OpenAPI/AsyncAPI spec, SDK, MCP server, or developer program was found (developer.ridezum.com does not resolve; /.well-known/security.txt and /llms.txt return 404 as of 2026-07-21).
+- Industry: student / school transportation; K-12 mobility.
+- Investor: SoftBank Vision Fund.
